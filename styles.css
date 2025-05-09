@@ -1,0 +1,38 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(56, 44, 27);
+    background-color: rgb(212, 162, 99);
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#scores{
+    display: flex;
+    
+}
+
+#options{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.game-button{
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0px solid rgb(94, 209, 255);
+    margin: 2px;
+}
+
+
+.game-button:hover {
+    background-color: rgb(112, 107, 107);
+    border: 0px;
+}
+
+.game-button:active {
+    background-color: blue;
+    transform: scale(0.95);
+}
